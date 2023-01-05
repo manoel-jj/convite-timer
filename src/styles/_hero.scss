@@ -52,7 +52,7 @@
         }
     }
 
-    @media (min-width: 820px) {
+    @media (min-width: 768px) and (max-width: 1024px)  {
         background-image: url(../images/fundo-cel-tablet.jpg);
         background-size: 820px 500px;
         display: flex;
