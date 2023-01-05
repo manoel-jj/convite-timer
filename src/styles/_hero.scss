@@ -38,6 +38,8 @@
     }
 
     @media (max-width: 640px) {
+        background-image: url(../images/fundo-cel-tablet.jpg);
+        background-size: 400px 410px;
         padding: 40px 0;
         &__logo {
             height: 40px;
@@ -48,6 +50,14 @@
             line-height: 24px;
             margin: 24px 0;
         }
+    }
+
+    @media (min-width: 820px) {
+        background-image: url(../images/fundo-cel-tablet.jpg);
+        background-size: 820px 500px;
+        display: flex;
+        align-items: center;
+        
     }
 
 }
